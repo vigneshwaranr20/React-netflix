@@ -31,7 +31,7 @@ export default function App() {
 
         <IsUserRedirect user={user} loggedInPath={ROUTES.BROWSE} 
           path={ROUTES.HOME} exact>
-          <Homes />
+          <Home />
         </IsUserRedirect>
       </Switch>
 
